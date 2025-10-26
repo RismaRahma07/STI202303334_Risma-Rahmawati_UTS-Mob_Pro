@@ -1,0 +1,40 @@
+name: event_planner_app
+description: A simple dark-themed event planner app for UTS Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📸 Mengambil gambar dari galeri/kamera
+  image_picker: ^1.1.2
+
+  # 📂 Menyimpan & membaca file lokal (json, download)
+  path_provider: ^2.1.4
+
+  # 🧠 Encode/decode file (json, bytes)
+  json_annotation: ^4.9.0
+
+  # 🧱 UI tambahan (optional)
+  flutter_launcher_icons: ^0.13.1
+
+  # 💡 State & widget dasar
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
